@@ -516,3 +516,129 @@ button:hover {
 .footer-bottom p {
   margin-top: 10px;
 }
+
+
+/* ---------------- RESPONSIVE DESIGN ---------------- */
+
+/* Navbar */
+@media (max-width: 992px) {
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* About Section */
+@media (max-width: 992px) {
+  .about-us {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .team img {
+    max-width: 90%;
+  }
+}
+
+/* Container (Left + Right Boxes) */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left-box,
+  .right-box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .left-box h1 {
+    font-size: 28px;
+  }
+}
+
+/* Cards Section */
+@media (max-width: 992px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
+    width: 90%;
+    margin: 15px 0;
+    height: auto;
+  }
+  .card-3,
+  .card-4 {
+    margin-top: 0;
+  }
+}
+
+/* Journey Section */
+@media (max-width: 992px) {
+  .journey {
+    flex-direction: column;
+    text-align: center;
+  }
+  .journey-text {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+  .journey-img {
+    max-width: 100%;
+  }
+}
+
+/* Mission & Vision */
+@media (max-width: 992px) {
+  .mission-vision {
+    flex-direction: column;
+  }
+  .mission-1,
+  .mission-2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* News Cards */
+@media (max-width: 768px) {
+  .news-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .news-card {
+    width: 90%;
+  }
+}
+
+/* Contact Section */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 20px;
+  }
+}
+
+/* Footer Responsive */
+@media (max-width: 992px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-left,
+  .footer-right {
+    margin: 20px 0;
+    padding: 0;
+  }
+  .right {
+    padding-left: 0;
+  }
+}
